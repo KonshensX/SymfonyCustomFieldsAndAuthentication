@@ -12,7 +12,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
  *
  * @ORM\Table(name="user")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\UserRepository")
- * @UniqueEntity(fields={"email", "username"}, message="Email is already in use")
+ * @UniqueEntity(fields={"email", "username"},  message="This one is already in use, Please choose another one")
  */
 class User implements UserInterface
 {

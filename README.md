@@ -14,4 +14,4 @@ Custom Types:
 
     - A login that uses both email or username for authentication
 
-    - A registration page still in the work 
+    - A registration page still in the work
